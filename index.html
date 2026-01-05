@@ -3,119 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>陽明合唱團 2026 寒訓營 - 團員手冊</title>
+    <title>春聲．初響 Spring Voices Bloom - 2026 陽明懶人包</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Noto Sans TC', sans-serif; }
+        h1, h2, h3 { font-family: 'Noto Serif TC', serif; }
         .hero-bg {
-            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1516280440614-6697288d5d38?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            /* 模擬海報的柔和色調 */
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1490750967868-58cb75062ed0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
             background-size: cover;
             background-position: center;
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body class="bg-stone-50 text-stone-800">
 
-    <nav class="fixed w-full bg-white/90 backdrop-blur-sm shadow-md z-50">
+    <nav class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-            <div class="font-bold text-xl text-blue-900">NYCU Chorus 2026</div>
-            <div class="space-x-4 text-sm font-medium">
-                <a href="#schedule" class="hover:text-blue-600">流程</a>
-                <a href="#accommodation" class="hover:text-blue-600">住宿</a>
-                <a href="#traffic" class="hover:text-blue-600">交通</a>
+            <div class="font-bold text-xl text-rose-900">春聲．初響 2026</div>
+            <div class="space-x-4 text-sm font-medium text-stone-600">
+                <a href="#schedule" class="hover:text-rose-600">流程</a>
+                <a href="#accommodation" class="hover:text-rose-600">住宿</a>
+                <a href="#packing" class="hover:text-rose-600">行李</a>
+                <a href="#contact" class="hover:text-rose-600">聯絡</a>
             </div>
         </div>
     </nav>
 
     <header class="hero-bg h-screen flex items-center justify-center text-white text-center px-4">
-        <div>
-            <h1 class="text-4xl md:text-6xl font-bold mb-4">2026 陽明合唱團寒期訓練營</h1>
-            <p class="text-xl md:text-2xl mb-8 font-light">五十週年．聚首．新聲</p>
-            <div class="bg-white/20 backdrop-blur-md rounded-lg p-4 inline-block">
-                <p class="font-bold">📅 日期：2026/01/xx - 01/xx</p>
-                <p class="font-bold">📍 地點：(填入地點名稱)</p>
+        <div class="animate-fade-in-up">
+            <h1 class="text-5xl md:text-7xl font-bold mb-4 tracking-wider text-rose-100 drop-shadow-lg">春聲．初響</h1>
+            <p class="text-2xl md:text-3xl mb-8 font-light italic">Spring Voices Bloom</p>
+            <div class="bg-white/20 backdrop-blur-md rounded-lg p-6 inline-block border border-white/30">
+                <p class="font-bold text-lg">📅 日期：2026/01/08 (四) - 01/10 (六)</p>
+                <p class="text-sm mt-1 mb-2 opacity-90">(1/7 晚上先行入住民宿)</p>
+                <p class="font-bold text-lg">📍 地點：新竹 (陽明交大 / 清大)</p>
             </div>
         </div>
     </header>
 
-    <section class="py-12 bg-blue-900 text-white text-center">
+    <section class="py-10 bg-rose-900 text-white text-center">
         <div class="container mx-auto px-4">
             <h2 class="text-2xl font-bold mb-4">🎵 團員專區</h2>
-            <div class="flex justify-center gap-4">
-                <button class="bg-white text-blue-900 px-6 py-2 rounded-full font-bold hover:bg-gray-100 transition">
-                    📥 下載樂譜 (Google Drive)
-                </button>
-                <button class="border-2 border-white px-6 py-2 rounded-full font-bold hover:bg-white/10 transition">
-                    🎧 練習音檔
-                </button>
-            </div>
+            <p class="mb-6 opacity-80">樂譜與練習音檔都在這裡</p>
+            <a href="https://drive.google.com/drive/folders/1RN5dm4KHa-rkswDilvYbQceaBwBkqwu?usp=drivelink" target="_blank" class="inline-block bg-white text-rose-900 px-8 py-3 rounded-full font-bold hover:bg-rose-100 transition shadow-lg transform hover:scale-105">
+                📥 Google Drive 雲端連結
+            </a>
         </div>
     </section>
 
     <section id="schedule" class="py-16 container mx-auto px-4 max-w-4xl">
-        <h2 class="text-3xl font-bold text-center mb-10 text-blue-900">📅 三日流程</h2>
+        <h2 class="text-3xl font-bold text-center mb-10 text-rose-900">📅 活動細流</h2>
         
-        <div class="mb-8 bg-white rounded-xl shadow-lg overflow-hidden border-l-8 border-blue-500">
+        <div class="mb-6 bg-stone-100 rounded-xl shadow-sm overflow-hidden border-l-8 border-stone-400 opacity-90">
             <div class="p-6">
-                <h3 class="text-xl font-bold mb-4">Day 1：啟程與開訓 (週五)</h3>
-                <ul class="space-y-3">
-                    <li class="flex"><span class="font-bold w-20">09:00</span> <span>台北車站東三門集合發車</span></li>
-                    <li class="flex"><span class="font-bold w-20">11:00</span> <span>抵達營地 / 分房</span></li>
-                    <li class="flex"><span class="font-bold w-20 text-blue-600">14:00</span> <span class="text-blue-600 font-bold">練唱 Session 1 (高端禾老師)</span></li>
-                    <li class="flex"><span class="font-bold w-20">18:00</span> <span>晚餐：BBQ 之夜</span></li>
+                <h3 class="text-xl font-bold mb-4 flex justify-between text-stone-600">
+                    <span>1/7 (三) 集合入住</span>
+                    <span class="text-sm bg-stone-200 px-2 py-1 rounded">Day 0</span>
+                </h3>
+                <ul class="space-y-3 text-sm md:text-base text-stone-600">
+                    <li class="flex"><span class="font-bold w-24">15:00 後</span> <span>自行前往民宿 Check-in</span></li>
+                    <li class="flex"><span class="font-bold w-24">晚上</span> <span>自由活動 / 休息 (準備明天開訓)</span></li>
+                    <li class="pl-24 text-xs text-rose-600">*詳細入住方式請見下方「住宿指南」</li>
                 </ul>
             </div>
         </div>
 
-        <div class="mb-8 bg-white rounded-xl shadow-lg overflow-hidden border-l-8 border-yellow-500">
+        <div class="mb-6 bg-white rounded-xl shadow-md overflow-hidden border-l-8 border-rose-400">
             <div class="p-6">
-                <h3 class="text-xl font-bold mb-4">Day 2：魔鬼特訓 (週六)</h3>
-                <ul class="space-y-3">
-                    <li class="flex"><span class="font-bold w-20">08:00</span> <span>晨喚 / 早餐</span></li>
-                    <li class="flex"><span class="font-bold w-20 text-blue-600">09:00</span> <span class="text-blue-600 font-bold">分部練習 (S/A/T/B)</span></li>
-                    <li class="flex"><span class="font-bold w-20">12:00</span> <span>午餐</span></li>
-                    <li class="flex"><span class="font-bold w-20 text-blue-600">13:30</span> <span class="text-blue-600 font-bold">總譜練習 & 動作編排</span></li>
+                <h3 class="text-xl font-bold mb-4 flex justify-between">
+                    <span>1/8 (四) 啟程與開訓</span>
+                    <span class="text-sm text-gray-500">Day 1</span>
+                </h3>
+                <ul class="space-y-3 text-sm md:text-base">
+                    [cite_start]<li class="flex"><span class="font-bold w-24 text-rose-600">08:30</span> <span>相見歡 (地點待補，請依幹部指示) [cite: 45]</span></li>
+                    [cite_start]<li class="flex"><span class="font-bold w-24">09:00</span> <span>開幕 / 合唱教室 (活動中心 2F) [cite: 45]</span></li>
+                    [cite_start]<li class="flex"><span class="font-bold w-24">12:00</span> <span>午餐 (便當) + 休息 (工程二館) [cite: 45]</span></li>
+                    [cite_start]<li class="flex"><span class="font-bold w-24 text-rose-600">13:30</span> <span>部練 (S:清大/A:4F會議/T:2F聯誼/B:4F聯誼) [cite: 45, 48-52]</span></li>
+                    [cite_start]<li class="flex"><span class="font-bold w-24">18:30</span> <span>晚餐 (跟小隊去清夜吃飯) [cite: 47]</span></li>
                 </ul>
             </div>
         </div>
 
-        <div class="bg-white rounded-xl shadow-lg overflow-hidden border-l-8 border-green-500">
+        <div class="mb-6 bg-white rounded-xl shadow-md overflow-hidden border-l-8 border-rose-500">
             <div class="p-6">
-                <h3 class="text-xl font-bold mb-4">Day 3：驗收與賦歸 (週日)</h3>
-                <ul class="space-y-3">
-                    <li class="flex"><span class="font-bold w-20 text-blue-600">10:00</span> <span class="text-blue-600 font-bold">總驗收 (錄影)</span></li>
-                    <li class="flex"><span class="font-bold w-20">12:00</span> <span>慶功午宴</span></li>
-                    <li class="flex"><span class="font-bold w-20">15:00</span> <span>搭車返程</span></li>
+                <h3 class="text-xl font-bold mb-4 flex justify-between">
+                    <span>1/9 (五) 密集訓練</span>
+                    <span class="text-sm text-gray-500">Day 2</span>
+                </h3>
+                <ul class="space-y-3 text-sm md:text-base">
+                    [cite_start]<li class="flex"><span class="font-bold w-24">09:00</span> <span>音樂工作坊 A/B [cite: 45]</span></li>
+                    <li class="flex"><span class="font-bold w-24">12:00</span> <span>午餐 + 休息</span></li>
+                    [cite_start]<li class="flex"><span class="font-bold w-24 text-rose-600">13:30</span> <span>合唱教室團練 [cite: 45]</span></li>
+                    <li class="flex"><span class="font-bold w-24">17:30</span> <span>晚餐</span></li>
+                    [cite_start]<li class="flex"><span class="font-bold w-24">18:30</span> <span>夜間活動 (成功湖/清夜) [cite: 45]</span></li>
+                    [cite_start]<li class="flex"><span class="font-bold w-24 text-rose-600">21:00</span> <span>各團演出彩排 [cite: 45]</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mb-6 bg-white rounded-xl shadow-md overflow-hidden border-l-8 border-yellow-500">
+            <div class="p-6">
+                <h3 class="text-xl font-bold mb-4 flex justify-between">
+                    <span>1/10 (六) 成果發表</span>
+                    <span class="text-sm text-gray-500">Day 3</span>
+                </h3>
+                <ul class="space-y-3 text-sm md:text-base">
+                    [cite_start]<li class="flex"><span class="font-bold w-24 text-rose-600">08:30</span> <span>前往工程二館梳化 / 09:00 大禮堂 Stand by [cite: 55, 56]</span></li>
+                    [cite_start]<li class="flex"><span class="font-bold w-24">10:30</span> <span>總驗收彩排 (大禮堂) [cite: 55]</span></li>
+                    [cite_start]<li class="flex"><span class="font-bold w-24">12:50</span> <span>合唱教室發聲/彩排 [cite: 45]</span></li>
+                    [cite_start]<li class="flex"><span class="font-bold w-24 text-rose-600">14:05</span> <span>正式演出 (陽明合唱團) [cite: 60]</span></li>
+                    [cite_start]<li class="flex"><span class="font-bold w-24">16:20</span> <span>賦歸 [cite: 45]</span></li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <section id="accommodation" class="py-16 bg-gray-100">
+    <section id="accommodation" class="py-16 bg-stone-100">
         <div class="container mx-auto px-4 max-w-4xl">
-            <h2 class="text-3xl font-bold text-center mb-10 text-blue-900">🏨 住宿資訊</h2>
-            <div class="bg-white p-8 rounded-xl shadow-md">
-                <h3 class="text-2xl font-bold mb-2">飯店名稱 (Placeholder)</h3>
-                <p class="text-gray-600 mb-6">地址：請輸入完整地址</p>
+            <h2 class="text-3xl font-bold text-center mb-10 text-stone-800">🏡 住宿指南 (1/7 入住)</h2>
+            
+            <div class="bg-white p-8 rounded-xl shadow-lg border border-stone-200">
+                <h3 class="text-2xl font-bold mb-4 text-rose-900">新竹包棟民宿</h3>
+                [cite_start]<p class="text-lg font-bold mb-2">📍 地址：民主路57巷5弄65號 [cite: 2]</p>
                 
-                <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
+                    <h4 class="font-bold text-yellow-800 mb-2">⚠️ 導航與入住重要須知 (必讀！)</h4>
+                    <ul class="list-disc pl-5 text-sm text-yellow-900 space-y-1">
+                        [cite_start]<li><strong>導航設定：</strong>請導到「民主路57巷17號」。 [cite: 2]</li>
+                        [cite_start]<li><strong>認路標：</strong>正對面有一個<strong>紅色鐵柵欄門</strong>。 [cite: 2]</li>
+                        [cite_start]<li><strong>位置：</strong>進去後左轉第三棟（有門牌）。 [cite: 2]</li>
+                        [cite_start]<li><strong>進出方式：</strong>旁邊大門是倉庫，請從<strong>車庫</strong>進出。 [cite: 5]</li>
+                    </ul>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-6">
                     <div>
-                        <h4 class="font-bold border-b pb-2 mb-2">🛏️ 房型分配</h4>
-                        <p class="text-sm text-gray-500 mb-2">*詳細房號請見行前手冊 PDF</p>
-                        <ul class="list-disc pl-5 space-y-1">
-                            <li>男生房：301, 302, 303 (四人房)</li>
-                            <li>女生房：305, 306, 307 (四人房)</li>
-                            <li>幹部房：308 (雙人房)</li>
+                        <h4 class="font-bold text-stone-700 border-b pb-2 mb-2">🔑 入住資訊</h4>
+                        <ul class="space-y-2 text-sm">
+                            [cite_start]<li><strong>入住時間：</strong>1/7 15:00 後 [cite: 6]</li>
+                            [cite_start]<li><strong>鑰匙盒位置：</strong>車庫右手邊紅色盒子 [cite: 3]</li>
+                            [cite_start]<li><strong>鑰匙盒密碼：</strong><span class="bg-rose-100 text-rose-800 px-2 py-1 rounded font-mono font-bold">0702</span> [cite: 3]</li>
+                            [cite_start]<li>*開啟後可取得車庫遙控器 [cite: 4]</li>
                         </ul>
                     </div>
                     <div>
-                        <h4 class="font-bold border-b pb-2 mb-2">🎒 攜帶物品清單</h4>
-                        <ul class="space-y-2">
-                            <li class="flex items-center">✅ <span class="ml-2">個人盥洗用具 (牙刷/毛巾)</span></li>
-                            <li class="flex items-center">✅ <span class="ml-2">原版樂譜 + 2B鉛筆</span></li>
-                            <li class="flex items-center">✅ <span class="ml-2">環保水壺 (必備)</span></li>
-                            <li class="flex items-center">✅ <span class="ml-2">禦寒衣物/個人藥品</span></li>
+                        <h4 class="font-bold text-stone-700 border-b pb-2 mb-2">📶 Wi-Fi 資訊</h4>
+                        <ul class="space-y-2 text-sm">
+                            [cite_start]<li><strong>名稱：</strong>民主路 [cite: 9]</li>
+                            [cite_start]<li><strong>密碼：</strong><span class="bg-stone-200 px-2 py-1 rounded font-mono">88888888</span> [cite: 10]</li>
+                            <li>(8個8)</li>
                         </ul>
                     </div>
                 </div>
@@ -123,32 +161,82 @@
         </div>
     </section>
 
-    <section id="traffic" class="py-16 container mx-auto px-4 max-w-4xl text-center">
-        <h2 class="text-3xl font-bold mb-10 text-blue-900">🚗 交通指引</h2>
-        
-        <div class="w-full h-64 bg-gray-300 rounded-lg mb-8 flex items-center justify-center">
-            <p class="text-gray-600">請在此處嵌入 Google Maps iframe</p>
+    <section id="packing" class="py-16 container mx-auto px-4 max-w-4xl">
+        <h2 class="text-3xl font-bold text-center mb-10 text-rose-900">🎒 行李與服裝</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            
+            <div class="bg-gray-900 text-white p-6 rounded-xl shadow-lg">
+                <h3 class="text-xl font-bold mb-4 border-b border-gray-700 pb-2">👔 1/10 演出服裝 (必帶!)</h3>
+                <div class="space-y-4">
+                    <div>
+                        <span class="font-bold text-rose-400">👦 男生：</span>
+                        [cite_start]<p class="text-sm text-gray-300">黑襯衫、黑西裝褲、黑襪、黑皮鞋。[cite: 64]</p>
+                    </div>
+                    <div>
+                        <span class="font-bold text-rose-400">👧 女生：</span>
+                        [cite_start]<p class="text-sm text-gray-300">黑色連身洋裝 或 黑上衣配長裙(過膝不拖地)。[cite: 65]</p>
+                        [cite_start]<p class="text-sm text-gray-300">黑色跟鞋 (露腳背，中低跟即可)。[cite: 65]</p>
+                    </div>
+                    <div class="pt-2">
+                        <span class="font-bold text-yellow-400">★ 配件：</span>
+                        [cite_start]<p class="text-sm text-gray-300">黑色譜夾或紙板 (若沒背譜)。[cite: 66]</p>
+                    </div>
+                </div>
             </div>
 
-        <div class="grid md:grid-cols-2 gap-6 text-left">
-            <div class="bg-blue-50 p-6 rounded-lg">
-                <h4 class="font-bold text-lg mb-2 text-blue-800">🚌 搭乘遊覽車</h4>
-                <p>集合時間：1/xx 上午 09:00</p>
-                <p>集合地點：陽明校門口 / 台北車站</p>
-                <p class="text-sm text-gray-500 mt-2">請務必準時，逾時不候。</p>
-            </div>
-            <div class="bg-blue-50 p-6 rounded-lg">
-                <h4 class="font-bold text-lg mb-2 text-blue-800">🚘 自行前往</h4>
-                <p>導航設定：(飯店名稱)</p>
-                <p>停車資訊：飯店附設免費停車場</p>
-                <button class="mt-4 text-sm bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">開啟 Google 導航</button>
+            <div class="bg-white p-6 rounded-xl shadow border border-stone-200">
+                <h3 class="text-xl font-bold mb-4 border-b pb-2">🧳 建議攜帶清單</h3>
+                <ul class="space-y-2 text-stone-700">
+                    [cite_start]<li class="flex items-center">✅ <span class="ml-2">至少三天份換洗衣物 [cite: 67]</span></li>
+                    [cite_start]<li class="flex items-center">✅ <span class="ml-2">個人盥洗用品 (毛巾建議帶！) [cite: 69]</span></li>
+                    [cite_start]<li class="flex items-center">✅ <span class="ml-2">健保卡、個人藥品 [cite: 68]</span></li>
+                    [cite_start]<li class="flex items-center">✅ <span class="ml-2">手機 & 平板充電器 [cite: 70]</span></li>
+                    [cite_start]<li class="flex items-center">✅ <span class="ml-2">一顆愉快的心情 😊 [cite: 71]</span></li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <footer class="bg-gray-800 text-gray-300 py-8 text-center">
-        <p class="mb-2">© 2026 國立陽明交通大學 陽明合唱團</p>
-        <p class="text-sm">緊急聯絡人：總召 Raphael (09xx-xxx-xxx) | 生輔長 (09xx-xxx-xxx)</p>
+    <section id="contact" class="py-16 bg-rose-50">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    [cite_start]<h3 class="text-xl font-bold mb-4 text-rose-900">👥 小隊名單 [cite: 72]</h3>
+                    <div class="bg-white p-4 rounded-lg shadow text-sm space-y-2">
+                        <p>第1組：呂哲毓</p>
+                        <p>第2組：李宥蓁</p>
+                        <p>第4組：謝侑均</p>
+                        <p>第5組：邱于寧</p>
+                        <p>第7組：劉山暉</p>
+                        <p>第8組：謝玫玲</p>
+                        <p>第9組：陳俠夫、楊少綸</p>
+                        <p>第10組：莊筑寓</p>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-rose-900">🆘 緊急聯絡</h3>
+                    <div class="bg-white p-6 rounded-lg shadow space-y-4">
+                        <div class="flex justify-between items-center border-b pb-3">
+                            <div>
+                                [cite_start]<p class="font-bold text-lg">陳俠夫 (Raphael) [cite: 76]</p>
+                                <p class="text-xs text-gray-500">緊急聯絡人</p>
+                            </div>
+                            <a href="tel:0900260426" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">撥打 0900260426</a>
+                        </div>
+                        <div class="text-sm text-gray-600">
+                            <p class="font-bold">🏥 最近醫院：</p>
+                            [cite_start]<p>新竹台大醫院 [cite: 77]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-stone-800 text-stone-400 py-6 text-center text-sm">
+        <p>© 2026 陽明合唱團 Yangming Chorus</p>
+        <p>春聲．初響 Spring Voices Bloom</p>
     </footer>
 
 </body>
